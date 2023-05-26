@@ -1,0 +1,25 @@
+{
+  "name": "openai-express-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple Express.js server integrated with the OpenAI API",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js",
+    "dev:tailwind": "tailwindcss -i public/index.css -o public/output.css --watch",
+    "dev": "npm-run-all --parallel dev:*",
+    "build:tailwind": "tailwindcss -i public/index.css -o public/output.css",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "npm-run-all": "^4.1.5",
+    "tailwindcss": "^3.3.2"
+  }
+}
