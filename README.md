@@ -7,6 +7,7 @@ A simple Express.js server integrated with the OpenAI API.
 1. Clone the repository
 2. Install dependencies with `npm install`
 3. Set up your `.env` file with your OpenAI API key and port number
+   - _note: add `.env` to .gitignore **immediately** as to not compromise your private API keys_
 4. Start the development server with `npm run dev`
 
 ## Features ✨
@@ -23,7 +24,7 @@ A simple Express.js server integrated with the OpenAI API.
 - `public`: The directory for static files
   - `index.html`: The front-end HTML
   - `index.js`: The front-end JavaScript
-  - `index.css`: The CSS file (Tailwind CSS)
+  - `index.css`: The CSS (just initializing TailwindCSS)
 
 ## ChatGPT Prompt 🤖
 
